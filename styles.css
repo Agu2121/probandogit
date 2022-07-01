@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+    color: white;
+}
+
+.brand span {
+    color: aqua;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: rgb(0, 0, 0);
+    border-bottom: solid 4px;
+}
+
+.brand {
+    margin-top: -7px;
+}
+
+.menu {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: aqua;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu .active {
+    color: white;
+}
+
+.menu a:hover {
+    background-color: purple;
+    transition: ease-in .4s;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.main p {
+    font-size: 20px;
+}
+
+h1 {
+    color: aqua;
+    font-size: 80px;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px white;
+}
+
+.boton:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+}
+
+.main img {
+    width: 400px;
+    border: 7px solid aqua;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.sobre-mi {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.sobre-mi img {
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.sobre-mi-info {
+    grid-column: 5/10;
+    padding: 3em;
+}
+
+.sobre-mi-info h2 {
+    font-size: 3em;
+    color: aqua;
+}
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 2em;
+}
